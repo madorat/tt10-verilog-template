@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Project_1"      # Project title
+  author:       "madorat"      # Your name
+  discord:      "rodm"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Desc"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,34 +22,34 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "input_signal_0"
+  ui[1]: "input_signal_1"
+  ui[2]: "input_signal_2"
+  ui[3]: "input_signal_3"
+  ui[4]: "input_signal_4"
+  ui[5]: "input_signal_5"
+  ui[6]: "input_signal_6"
+  ui[7]: "input_signal_7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "output_signal_0"   # Result of ui_in[0] + uio_in[0]
+  uo[1]: "output_signal_1"   # Result of ui_in[1] + uio_in[1]
+  uo[2]: "output_signal_2"   # Result of ui_in[2] + uio_in[2]
+  uo[3]: "output_signal_3"   # Result of ui_in[3] + uio_in[3]
+  uo[4]: "output_signal_4"   # Result of ui_in[4] + uio_in[4]
+  uo[5]: "output_signal_5"   # Result of ui_in[5] + uio_in[5]
+  uo[6]: "output_signal_6"   # Result of ui_in[6] + uio_in[6]
+  uo[7]: "output_signal_7"   # Result of ui_in[7] + uio_in[7]
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[0]: "bidirectional_pin_0"
+  uio[1]: "bidirectional_pin_1"
+  uio[2]: "bidirectional_pin_2"
+  uio[3]: "bidirectional_pin_3"
+  uio[4]: "bidirectional_pin_4"
+  uio[5]: "bidirectional_pin_5"
+  uio[6]: "bidirectional_pin_6"
+  uio[7]: "bidirectional_pin_7"
 
 # Do not change!
 yaml_version: 6
